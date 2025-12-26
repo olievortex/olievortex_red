@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "OlievortexRed.Cli": {
+      "commandLineArgs": "eventsdatabase",
+      "commandName": "Project",
+      "environmentVariables": {
+        "OlieBlobBronzeContainerUri": "https://salrsolievortex.blob.core.windows.net/olie-historian-subscribers",
+        "OlieBlobGoldContainerUri": "https://salrsolievortex.blob.core.windows.net/olie-spc-integration",
+        "OlieCosmosEndpoint": "https://cos-olievortex.documents.azure.com:443/",
+        "OlieCosmosDatabase": "common"
+      }
+    }
+  }
+}
