@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "OlieServiceBus__fullyQualifiedNamespace": "sb-olievortex.servicebus.windows.net",
+    "OlieBlobBronzeContainerUri": "https://salrsolievortex.blob.core.windows.net/olie-historian-subscribers",
+    "OlieBlobGoldContainerUri": "https://salrsolievortex.blob.core.windows.net/olie-spc-integration",
+    "OlieBlobServiceUri": "https://salrsolievortex.blob.core.windows.net/",
+    "OlieCosmosEndpoint": "https://cos-olievortex.documents.azure.com:443/",
+    "OlieCosmosDatabase": "common",
+    "OlieAwsServiceBus": "sb-olievortex.servicebus.windows.net"
+  }
+}
